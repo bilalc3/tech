@@ -2,6 +2,7 @@
 import Landing from "./Landing"; 
 import Projects from "./Projects";
 import Footer from "./Footer"; 
+import About from "./About"; 
 
 
 function App() {

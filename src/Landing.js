@@ -8,7 +8,7 @@ const datas = [
     {
         name: "Linkedin",
         image: linkedin, 
-        link: "https://www.linkedin.com/in/bilalchdry1", 
+        link: "https://www.linkedin.com/in/bchdry", 
         id: 1
     },
     {
@@ -28,6 +28,18 @@ const datas = [
 ]
 const Landing = () => {
 
+    // to keep year updated
+    const today = new Date();
+    const year = today.getFullYear();
+    console.log(year)
+    const currYearMap = {
+        "2021" : "1st",
+        "2022" : "2nd",
+        "2023" : "3rd",  
+        "2024" : "4th",  
+        "2025" : "5th",  
+    }
+
 
     
     return (  
@@ -39,7 +51,7 @@ const Landing = () => {
                 </div>
 
                 <div className="university">
-                    1st year Computer Science Student at the Univeristy of Waterloo
+                   {currYearMap[year]} year Computer Science Student at the Univeristy of Waterloo
                 </div>
 
 

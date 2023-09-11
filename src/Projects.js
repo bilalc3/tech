@@ -3,6 +3,9 @@ import project from "./assets/images/projectlogo.png"
 import worklogo from "./assets/images/work.png"
 import nasheedify from "./assets/images/nasheedifylogo.png"
 import emegle from "./assets/images/emegle3.png"
+import chess from "./assets/images/chess.png"
+import mips from "./assets/images/mips.jpeg"
+import orglink from "./assets/images/orglink.png"
 import './assets/css/Projects.css'; 
 import studyhub from "./assets/images/studyhubImage.png"
 
@@ -47,6 +50,33 @@ const projects =[
         tools: ["React", "Boostrap", "JQuery"], 
         link: "https://github.com/bilalc3/studyhub",
         id: 4
+    }, {
+        name: "Chess", 
+        description: "Chess game featuring advanced Object-Oriented principles, diverse gameplay modes, adaptive AI, and a visual interface created with XWindow and the Observer pattern.",  
+        image: chess, 
+        type: project,
+        tools2: "C++, XWindow, XBitMap", 
+        tools: ["C++", "XWindow", "XBitMap"], 
+        link: "https://github.com/bilalc3/Chess",
+        id: 5
+    } , {
+        name: "WLP4 Compiler", 
+        description: "WLP4 compiler employing LR(1) scanning, bottom-up parsing, and context-sensitive analysis techniques to classify well-formed code syntactically and semantically via exception handling.",  
+        image: mips, 
+        type: project,
+        tools2: "C++, WLP4, MIPS", 
+        tools: ["C++", "WLP4", "MIPS"], 
+        link: "/",
+        id: 6
+    }, {
+        name: "OrgLink", 
+        description: "Leading backend development and introduced a RESTful API for an Ontario awareness organization. Implenting features such as optimizing recurring requests through caching and enhancing authentication using JWT",  
+        image: orglink, 
+        type: project,
+        tools2: "Java, SpringBoot, Postgresql", 
+        tools: ["Java","Spring Boot", "Postgresql"], 
+        link: "https://github.com/bilalc3/orglink-client",
+        id: 7
     }
 
 ]
@@ -66,11 +96,20 @@ const Projects = () => {
                 {projects.map((project) => (
                          
                        <div className="projectpreview" key = {project.id}>
-                           <a href={project.link} className="projectlink" target="_blank" rel="noreferrer">  
-                            <div className="projecttop">
-                                <img className= "projectimage" src={project.image} alt="ProjectImage" /> 
-                            </div>
-                            </a> 
+                            {project.link != "/" ?
+                                (<a href={project.link} className="projectlink" target="_blank" rel="noreferrer">  
+                                <div className="projecttop">
+                                    <img className= "projectimage" src={project.image} alt="ProjectImage" /> 
+                                </div>
+                                </a> )
+                                : (
+                                    <span>  
+                                    <div className="projecttop">
+                                        <img className= "projectimage" src={project.image} alt="ProjectImage" /> 
+                                    </div>
+                                    </span> 
+                                    )}
+                           
                             <div className="projectinfo">
                                 <div className="projectTop">
                                     <div className="projectName">
@@ -92,9 +131,6 @@ const Projects = () => {
                                 <div className="projectBottom">
                                     {project.description}
                                 </div>
-                                
-                                
-
                             </div>
                         </div>
                         

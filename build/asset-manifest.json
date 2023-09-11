@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tech/static/css/main.0589e5dc.css",
+    "main.js": "/tech/static/js/main.225178f7.js",
+    "static/js/787.4f1ff88d.chunk.js": "/tech/static/js/787.4f1ff88d.chunk.js",
+    "static/media/studyhubImage.png": "/tech/static/media/studyhubImage.d150f0ea423936e18ff9.png",
+    "static/media/backImage.jpg": "/tech/static/media/backImage.591faeb93bbece2b3806.jpg",
+    "static/media/orglink.png": "/tech/static/media/orglink.61fb332d79879b4b595c.png",
+    "static/media/nasheedifylogo.png": "/tech/static/media/nasheedifylogo.b59bcd008f3c06a13e20.png",
+    "static/media/foodxpress.png": "/tech/static/media/foodxpress.9bd2f7b79977dc945918.png",
+    "static/media/emegle3.png": "/tech/static/media/emegle3.0acecc6c805d118eed09.png",
+    "static/media/chess.png": "/tech/static/media/chess.543a59367d36890f6027.png",
+    "static/media/mips.jpeg": "/tech/static/media/mips.a24d2c32e1753944b41f.jpeg",
+    "static/media/backgroundFrame.jpeg": "/tech/static/media/backgroundFrame.fed7918b5b831df5697d.jpeg",
+    "static/media/projectlogo.png": "/tech/static/media/projectlogo.b2105fc531392137985b.png",
+    "static/media/linkedinlogo.png": "/tech/static/media/linkedinlogo.ba884e1f9ad4362348c1.png",
+    "static/media/githublogo.png": "/tech/static/media/githublogo.c873bdd408a069f8f259.png",
+    "static/media/devpostlogo.png": "/tech/static/media/devpostlogo.642f72a30810ab06e7cf.png",
+    "index.html": "/tech/index.html",
+    "main.0589e5dc.css.map": "/tech/static/css/main.0589e5dc.css.map",
+    "main.225178f7.js.map": "/tech/static/js/main.225178f7.js.map",
+    "787.4f1ff88d.chunk.js.map": "/tech/static/js/787.4f1ff88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0589e5dc.css",
+    "static/js/main.225178f7.js"
+  ]
+}

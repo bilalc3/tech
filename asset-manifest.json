@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tech/static/css/main.667e424a.css",
+    "main.js": "/tech/static/js/main.c375e616.js",
+    "static/js/787.4f1ff88d.chunk.js": "/tech/static/js/787.4f1ff88d.chunk.js",
+    "static/media/studyhubImage.png": "/tech/static/media/studyhubImage.d150f0ea423936e18ff9.png",
+    "static/media/backImage.jpg": "/tech/static/media/backImage.4323ca855e0eedb748c5.jpg",
+    "static/media/nasheedifylogo.png": "/tech/static/media/nasheedifylogo.b59bcd008f3c06a13e20.png",
+    "static/media/foodxpress.png": "/tech/static/media/foodxpress.9bd2f7b79977dc945918.png",
+    "static/media/emegle3.png": "/tech/static/media/emegle3.0acecc6c805d118eed09.png",
+    "static/media/backgroundFrame.jpeg": "/tech/static/media/backgroundFrame.fed7918b5b831df5697d.jpeg",
+    "static/media/projectlogo.png": "/tech/static/media/projectlogo.b2105fc531392137985b.png",
+    "static/media/linkedinlogo.png": "/tech/static/media/linkedinlogo.ba884e1f9ad4362348c1.png",
+    "static/media/githublogo.png": "/tech/static/media/githublogo.c873bdd408a069f8f259.png",
+    "static/media/devpostlogo.png": "/tech/static/media/devpostlogo.642f72a30810ab06e7cf.png",
+    "index.html": "/tech/index.html",
+    "main.667e424a.css.map": "/tech/static/css/main.667e424a.css.map",
+    "main.c375e616.js.map": "/tech/static/js/main.c375e616.js.map",
+    "787.4f1ff88d.chunk.js.map": "/tech/static/js/787.4f1ff88d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667e424a.css",
+    "static/js/main.c375e616.js"
+  ]
+}
